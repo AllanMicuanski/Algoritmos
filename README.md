@@ -25,7 +25,7 @@ Para testar os algoritmos de ordenação, você precisará do Node.js instalado 
    Para testar os algoritmos de ordenação, você pode executar os arquivos no terminal usando o Node.js. Por exemplo, para testar o Bubble Sort:
 
    ```bash
-   node index.js bubble
+    node bubble.js
    ```
 
 Substitua `bubble` por `merge` ou `quick` para testar os outros algoritmos de ordenação. Utilize `compara` para executar uma comparação entre os tempos de execução dos algoritmos.
