@@ -11,13 +11,13 @@ Para testar os algoritmos de ordenação, você precisará do Node.js instalado 
 1. **Clone o Repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/AllanMicuanski/Algoritmos.git
    ```
 
 2. **Navegue até o Diretório:**
 
    ```bash
-   cd nome-do-repositorio
+   cd Algoritmos
    ```
 
 3. **Executar os Testes:**
@@ -28,7 +28,7 @@ Para testar os algoritmos de ordenação, você precisará do Node.js instalado 
    node index.js bubble
    ```
 
-   Substitua `bubble` por `merge` ou `quick` ou por `compara` para testar os outros algoritmos.
+Substitua `bubble` por `merge` ou `quick` para testar os outros algoritmos de ordenação. Utilize `compara` para executar uma comparação entre os tempos de execução dos algoritmos.
 
 Algoritmos Implementados
 ------------------------
@@ -48,4 +48,5 @@ O Quick Sort é outro algoritmo de ordenação baseado na técnica de dividir pa
 Medição de Desempenho
 ----------------------
 
-Para medir o desempenho de cada algoritmo de ordenação, esta implementação inclui uma função que calcula o tempo de execução para 3 arrays diferentes uma com 5 outra com 50 e por fim com 500. Os resultados podem ser encontrados no arquivo.
+Para medir o desempenho de cada algoritmo de ordenação, esta implementação inclui uma função que calcula o tempo de execução para três arrays diferentes: um com 5 números, outro com 50 números e, por fim, um com 500 números. Os resultados podem ser encontrados no arquivo.
+
