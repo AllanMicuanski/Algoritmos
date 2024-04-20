@@ -102,7 +102,7 @@ const array500 = [
 // Medir o tempo de execução do Bubble Sort
 const bubble5 = medirTempo(bubbleSort, array5);
 console.log(
-  'Tempo de execução array 5 do Bubble Sort:',
+  'Tempo de execução array com 5 números do Bubble Sort:',
   bubble5,
   'milissegundos',
 );
@@ -110,7 +110,7 @@ console.log(
 // Medir o tempo de execução do Merge Sort
 const merge5 = medirTempo(mergeSort, array5);
 console.log(
-  'Tempo de execução array 5 do Merge Sort:',
+  'Tempo de execução array com 5 números do Merge Sort:',
   merge5,
   'milissegundos',
 );
@@ -118,7 +118,7 @@ console.log(
 // Medir o tempo de execução do Quick Sort
 const quick5 = medirTempo(quickSort, array5);
 console.log(
-  'Tempo de execução array 5 do Quick Sort:',
+  'Tempo de execução array com 5 números do Quick Sort:',
   quick5,
   'milissegundos',
 );
@@ -126,7 +126,7 @@ console.log(
 // Medir o tempo de execução do Bubble Sort
 const bubble50 = medirTempo(bubbleSort, array50);
 console.log(
-  'Tempo de execução array 50 do Bubble Sort:',
+  'Tempo de execução array com 50 númerosdo Bubble Sort:',
   bubble50,
   'milissegundos',
 );
@@ -134,7 +134,7 @@ console.log(
 // Medir o tempo de execução do Merge Sort
 const merge50 = medirTempo(mergeSort, array50);
 console.log(
-  'Tempo de execução array 50 do Merge Sort:',
+  'Tempo de execução array com 50 númerosdo Merge Sort:',
   merge50,
   'milissegundos',
 );
@@ -142,7 +142,7 @@ console.log(
 // Medir o tempo de execução do Quick Sort
 const quick50 = medirTempo(quickSort, array50);
 console.log(
-  'Tempo de execução array 50 do Quick Sort:',
+  'Tempo de execução array com 50 númerosdo Quick Sort:',
   quick50,
   'milissegundos',
 );
@@ -150,7 +150,7 @@ console.log(
 // Medir o tempo de execução do Bubble Sort
 const bubble500 = medirTempo(bubbleSort, array500);
 console.log(
-  'Tempo de execução array 500 do Bubble Sort:',
+  'Tempo de execução array com 500 números do Bubble Sort:',
   bubble500,
   'milissegundos',
 );
@@ -158,7 +158,7 @@ console.log(
 // Medir o tempo de execução do Merge Sort
 const merge500 = medirTempo(mergeSort, array500);
 console.log(
-  'Tempo de execução array 500 do Merge Sort:',
+  'Tempo de execução array com 500 números do Merge Sort:',
   merge500,
   'milissegundos',
 );
@@ -166,7 +166,7 @@ console.log(
 // Medir o tempo de execução do Quick Sort
 const quick500 = medirTempo(quickSort, array500);
 console.log(
-  'Tempo de execução array 500 do Quick Sort:',
+  'Tempo de execução array com 500 números do Quick Sort:',
   quick500,
   'milissegundos',
 );
@@ -186,6 +186,6 @@ const menor50 = menorTempo(bubble50, merge50, quick50);
 const menor500 = menorTempo(bubble500, merge500, quick500);
 
 // Mostrar no console os resultados
-console.log('Melhor algoritmo para array 5:', menor5);
-console.log('Melhor algoritmo para array 50:', menor50);
-console.log('Melhor algoritmo para array 500:', menor500);
+console.log('Melhor algoritmo para array com 5 números:', menor5);
+console.log('Melhor algoritmo para array com 50 números:', menor50);
+console.log('Melhor algoritmo para array com 500 números:', menor500);
